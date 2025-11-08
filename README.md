@@ -2,6 +2,12 @@
 
 Uma API REST robusta para aplicações de chat em tempo real, construída com NestJS, Prisma e Socket.IO.
 
+## 🔗 Links
+
+- **🌐 Frontend (Aplicação)**: [https://chat-app-rf.vercel.app](https://chat-app-rf.vercel.app)
+- **📊 API em Produção**: [https://chat-backend-production-5e05.up.railway.app](https://chat-backend-production-5e05.up.railway.app)
+- **📚 Documentação Swagger**: [https://chat-backend-production-5e05.up.railway.app/api](https://chat-backend-production-5e05.up.railway.app/api)
+
 ## 🚀 Funcionalidades
 
 - **Autenticação JWT**: Sistema de registro e login seguro
