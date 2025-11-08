@@ -17,7 +17,13 @@ import { Module } from '@nestjs/common';
 @Module({
   providers: [ChatEventsService],
 })
-@WebSocketGateway({ cors: true })
+@WebSocketGateway({
+  cors: {
+    origin: process.env.FRONTEND_URL || '*',
+    credentials: true,
+  },
+  allowEIO3: true,
+})
 export class ChatGateway implements OnGatewayConnection, OnGatewayDisconnect {
   @WebSocketServer()
   server: Server;
